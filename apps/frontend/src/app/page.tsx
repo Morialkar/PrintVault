@@ -18,7 +18,7 @@ export default async function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome print-vault-server 👋
+              Welcome PrintVault 👋
             </h1>
           </div>
 
@@ -402,7 +402,7 @@ export default async function Index() {
                 </svg>
                 View project details
               </summary>
-              <pre>nx show project print-vault-server --web</pre>
+              <pre>nx show project frontend --web</pre>
             </details>
             <details>
               <summary>

@@ -1,7 +1,7 @@
 {
-  "name": "print-vault-server",
+  "name": "print-vault-frontend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/print-vault-server",
+  "sourceRoot": "apps/frontend",
   "projectType": "application",
   "targets": {},
   "tags": []

@@ -12,7 +12,7 @@
       "rules": {
         "@next/next/no-html-link-for-pages": [
           "error",
-          "apps/print-vault-server/pages"
+          "apps/frontend/pages"
         ]
       }
     },
