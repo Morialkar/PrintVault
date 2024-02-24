@@ -1,4 +1,5 @@
-'use client'
+'use client';
+import { FuseProvider } from '../components/FuseProvider';
 import './global.css';
 
 export default function RootLayout({
@@ -8,7 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <FuseProvider>
+        <body>{children}</body>
+      </FuseProvider>
     </html>
   );
 }
